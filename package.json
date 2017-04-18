@@ -1,1 +1,40 @@
-{     "devDependencies": {         "antigate": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-antigate",     "homepage": "https://github.com/npmtest/node-npmtest-antigate",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-antigate.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [antigate (v0.0.1)](https://bitbucket.org/ssbb/node-antigate#readme) [![npm package](https://img.shields.io/npm/v/npmtest-antigate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-antigate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-antigate.svg)](https://travis-ci.org/npmtest/node-npmtest-antigate)",
+    "devDependencies": {
+        "antigate": "*",
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-antigate",
+    "keywords": [
+        "coverage",
+        "test",
+        "antigate"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_antigate.js",
+    "name": "npmtest-antigate",
+    "nameAlias": "npmtest_antigate",
+    "nameOriginal": "npmtest-antigate",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-antigate.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
