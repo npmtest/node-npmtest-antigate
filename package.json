@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [antigate (v0.0.1)](https://bitbucket.org/ssbb/node-antigate#readme) [![npm package](https://img.shields.io/npm/v/npmtest-antigate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-antigate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-antigate.svg)](https://travis-ci.org/npmtest/node-npmtest-antigate)",
+    "description": "#### basic test coverage for  [antigate (v0.0.1)](https://bitbucket.org/ssbb/node-antigate#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-antigate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-antigate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-antigate.svg)](https://travis-ci.org/npmtest/node-npmtest-antigate)",
     "devDependencies": {
         "antigate": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",

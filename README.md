@@ -1,4 +1,7 @@
-# test coverage for  [antigate (v0.0.1)](https://bitbucket.org/ssbb/node-antigate#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-antigate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-antigate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-antigate.svg)](https://travis-ci.org/npmtest/node-npmtest-antigate)
+# npmtest-antigate
+
+#### basic test coverage for  [antigate (v0.0.1)](https://bitbucket.org/ssbb/node-antigate#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-antigate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-antigate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-antigate.svg)](https://travis-ci.org/npmtest/node-npmtest-antigate)
+
 #### Client for antigate.com API
 
 [![NPM](https://nodei.co/npm/antigate.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/antigate)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-antigate/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-antigate/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-antigate/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-antigate/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-antigate/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-antigate/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-antigate/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-antigate/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-antigate/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-antigate/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-antigate/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-antigate/build/coverage.html/index.html)
 
@@ -60,7 +63,8 @@
         "type": "mercurial",
         "url": "git+https://bitbucket.org/ssbb/node-antigate.git"
     },
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "bin": {}
 }
 ```
 
